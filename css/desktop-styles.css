@@ -1041,15 +1041,14 @@ fill: #fff;
 /*===================/Review form styles===================*/
 /*===================Mobile menu styles===================*/
 .mobili-menu-contanier {
-  padding: 72px 24px 16px 16px;
+  
   position: fixed;
   top: 0;
   left: 0;
   background-color: #FFF;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+ 
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -1059,6 +1058,14 @@ fill: #fff;
   visibility: visible;
     opacity: 1;
     pointer-events: auto;
+}
+.mobili-menu-contanier-general{
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  height: 100%;
+  padding: 72px 24px 16px 16px;
+  position: relative;
 }
 .close-mob-menu{
   border: none;
