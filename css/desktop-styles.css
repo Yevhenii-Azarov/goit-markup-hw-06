@@ -57,6 +57,7 @@ img{
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 /*=====/Common styles=====*/
@@ -182,7 +183,7 @@ font-size: 16px;
 }
 .header-mobile-icons{
   border: none;
-  background-color: transparent;
+background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -630,7 +631,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     flex-direction: row;
     gap: 72px 24px;
     flex-wrap: wrap;
-    width: 528px;
+    width: 584px;
+    align-items: baseline;
   }
 
 }
@@ -965,6 +967,7 @@ fill: #fff;
   border-color: #4d5ae5;
 }
 .review-form-checkbox-label{
+  display: flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -972,6 +975,7 @@ fill: #fff;
 }
 .review-form-checkbox-wrapper {
   margin-bottom: 24px;
+  display: flex;
 }
 
 .review-form-own-checkbox{
