@@ -1057,10 +1057,15 @@ fill: #fff;
 
 }
 .mobili-menu-contanier.is-open{
-  display: none;
   visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
+  opacity: 1;
+  pointer-events: auto;
+}
+@media screen and (min-width:768px) {
+  .mobili-menu-contanier{
+    display: none;
+  }
+  
 }
 .mobili-menu-contanier-general{
   margin: 0 auto;
